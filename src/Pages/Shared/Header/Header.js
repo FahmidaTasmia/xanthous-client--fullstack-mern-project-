@@ -41,7 +41,7 @@ const Header = () => {
 
     return (
        <div >
-         <div className="navbar text-primary font-bold flex justify-between z-40  ">
+         <div className="navbar absolute top-[10px]  text-primary font-bold flex justify-between z-40  ">
             <div className="navbar-start">
             <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

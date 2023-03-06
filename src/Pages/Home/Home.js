@@ -1,10 +1,13 @@
 import React from 'react'
-import Banner from './Banner'
+import About from './About'
+
+import Slider from './Slider/Slider'
 
 function Home() {
   return (
     <div>
-   <Banner></Banner>
+  <Slider></Slider>
+  <About></About>
     </div>
   )
 }

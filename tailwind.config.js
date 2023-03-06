@@ -8,9 +8,9 @@ content: [
       {
         mytheme:{
           primary:'#b89d4f',
-          secondary:'#212121',
+          secondary:'#b18551',
           accent: "#818181",
-          neutral: "#f2f2f2",
+          neutral: "#edebde",
           "base-100": "#FFFFFF",
 
         }
