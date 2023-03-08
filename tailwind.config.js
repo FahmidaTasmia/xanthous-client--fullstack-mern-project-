@@ -9,7 +9,7 @@ content: [
         mytheme:{
           primary:'#b89d4f',
           secondary:'#b18551',
-          accent: "#818181",
+          accent: "#684E30",
           neutral: "#edebde",
           "base-100": "#FFFFFF",
 

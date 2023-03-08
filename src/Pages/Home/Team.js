@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import { FaFacebookF, FaInstagram,  FaLinkedinIn } from 'react-icons/fa'
 function Team() {
   return (
-    <div className='lg:p-24 min-h-screen' style={{backgroundImage:(`url(${dot})`)}} >
+    <div className='lg:pb-44 lg:pt-24 min-h-screen' style={{backgroundImage:(`url(${dot})`)}} >
       <div className='max-w-screen-xl mx-auto ' >
       <div className='relative m-auto pb-5 px-5' >
        <h2 className="font-bold text-6xl text-start   md:text-[120px] text-gray-300 opacity-[0.07] numbs uppercase hidden lg:block"> creative TEAM</h2>

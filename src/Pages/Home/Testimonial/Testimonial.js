@@ -14,7 +14,7 @@ function Testimonial() {
     
     </div> */}
       <div className=' h-[80vh]  relative ' style={{backgroundImage:(`url(${tigre})`), backgroundSize:'cover', backgroundPosition:"center"}} >
-      <div className="absolute inset-0  bg-black opacity-80"></div>
+      <div className="absolute inset-0  bg-[#020B0D] opacity-80"></div>
       <div className='grid lg:grid-cols-2 gap-5'>
 
         <div className='flex gap-8 m-auto  relative top-[-100px] text-white' >
