@@ -46,3 +46,26 @@
     color: transparent;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
+
+.box:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #272727;
+    z-index: -1;
+}
+
+.box:after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    right: -15px;
+    bottom: -15px;
+    background: #fff;
+    opacity: .05;
+    z-index: -4;
+}

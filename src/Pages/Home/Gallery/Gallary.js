@@ -30,7 +30,7 @@ function Gallary() {
        </div>
       <div className='grid '>
       <Tabs filterCategory={filterCategory} tabsData={tabsData}/>
-            <Item data={data} />
+            <Item data={data} key={data.id} />
       </div>
     </div>
   )

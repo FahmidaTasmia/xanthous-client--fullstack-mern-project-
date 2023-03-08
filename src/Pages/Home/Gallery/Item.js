@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Home.css'
-import bg from '../../../asset/line-pattern.png'
+
 function Item({data}) {
   return (
     <div className='max-w-screen-xl mx-auto p-10'>
