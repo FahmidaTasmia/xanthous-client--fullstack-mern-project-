@@ -69,3 +69,7 @@
     opacity: .05;
     z-index: -4;
 }
+
+.team{
+    background: rgba(130, 129, 129, 0.205);
+}
