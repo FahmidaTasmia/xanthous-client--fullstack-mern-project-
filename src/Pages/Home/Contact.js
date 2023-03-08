@@ -4,7 +4,7 @@ import { HiOutlineMail, HiPhoneIncoming } from 'react-icons/hi'
 import beg from '../../asset/beg.jpg'
 function Contact() {
   return (
-    <div className=' relative lg:p-24 py-8' style={{backgroundImage:(`url(${beg})`), backgroundSize:'cover', }}  >
+    <div className=' relative lg:pt-24 py-8' style={{backgroundImage:(`url(${beg})`), backgroundSize:'cover', }}  >
         <div className="absolute inset-0  bg-[#020B0D] opacity-30"></div>
       <div className='max-w-screen-xl mx-auto relative' data-aos="fade-up">
         <div className='grid md:grid-cols-2 gap-8 px-8'>

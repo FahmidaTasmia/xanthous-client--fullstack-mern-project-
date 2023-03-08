@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './About'
+import Blog from './Blog'
 import Contact from './Contact'
 import Gallary from './Gallery/Gallary'
 import Slider from './Slider/Slider'
@@ -16,7 +17,7 @@ function Home() {
   <Testimonial></Testimonial>
   <Team></Team>
   <Contact></Contact>
-  
+  <Blog></Blog>
     </div>
   )
 }
