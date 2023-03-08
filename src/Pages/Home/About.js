@@ -3,7 +3,7 @@ import line from '../../asset/line-pattern.png'
 import line2 from '../../asset/bg.jpg'
 import line3 from '../../asset/dan.jpg'
 import './Home.css'
-import { Link } from 'react-router-dom'
+import sign from '../../asset/signature.png'
 
 function About() {
   return (
@@ -16,17 +16,22 @@ function About() {
                 
            <div className='lg:px-5'>
            <div className='flex gap-4'><div className='w-24 h-[1px] bg-primary mt-4'></div> <h2 className='uppercase font-semibold text-2xl mb-5  '>WELCOME</h2></div>
-            <div><h2 className='font-extrabold mb-5 text-transparent text-4xl md:text-3xl font-serif  lg:leading-relaxed tracking-wider lg:tracking-[2px] bg-clip-text bg-gradient-to-r from-[#b18551] to-[#000]'>BEST ART COLLECTIONS  FOR YOU.</h2></div>
+            <div><h2 className='font-extrabold mb-5 text-transparent text-4xl md:text-3xl font-serif  lg:leading-relaxed tracking-wider lg:tracking-[2px] bg-clip-text bg-gradient-to-r from-[#b18551] to-[#000]'>WE ARE THE LEADER IN THE PAINTING COLLECTORS WORLD.</h2></div>
             <div className='text-justify grid gap-5 font-[robots]'>
                 <p>Art is a diverse range of human activities in creating visual, auditory, or performing artifacts (artworks), expressing the author’s imaginative, conceptual ideas, or technical skill.</p>
                 <p>Art can be defined as a diverse range of activities executed by human beings, as well as the products of these activities. Art can be of many forms, as well.
                      A visual art is the creation of images that can be seen by the eyes and these include sculpting,
-                      painting, photography and other visual media. </p>
-                      <div className=' flex justify-start '>
-               <Link to='/about' className='btn-67 text-primary shadow-2xl'> READ More</Link>
-               </div>   
+                      painting, photography and other visual media. </p> 
             </div>
-           
+            <div className=' flex justify-start mt-8 '>
+              <div className=' border-r-2 border-primary '>
+                <div className='mr-5'> <img src={sign} alt="" /></div>
+              </div>
+              <div className='self-center ml-5 '>
+                <h2 className='text-2xl font-sans mb-2' >Fahmida Tasmia</h2>
+                <h2 className='text-primary text-xl tracking-wider'>CEO</h2>
+              </div>
+              </div>  
            </div>
            
             </div>

@@ -4,12 +4,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import './Testimonial.css'
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 function Testimonial() {
   return (
-  <div className=''  >
+  <div className='hidden lg:block'  >
     
     {/* <div className='bg-black relative min-h-screen z-0' >
     
@@ -31,7 +30,7 @@ function Testimonial() {
           </div>
         </div>
 {/* swiper div */}
-        <div className=' border-double border-[15px] border-[#262626] lg:mx-16 my-24  relative lg:top-[-200px]' data-aos="zoom-in">
+        <div className=' border-double border-[15px] border-[#262626] lg:mx-16 mt-24  relative lg:top-[-180px]' data-aos="zoom-in">
         <>
       <Swiper
         spaceBetween={30}
