@@ -3,7 +3,7 @@ import { Triangle } from 'react-loader-spinner'
 
 function Loader() {
   return (
-    <div>
+    <div className='h-[40vh] flex justify-center my-12'>
       <Triangle
   height="80"
   width="80"

@@ -1,4 +1,5 @@
 import React from 'react'
+import Category from '../Product/Category/Category'
 import About from './About'
 import Blog from './Blog'
 import Contact from './Contact'
@@ -13,6 +14,7 @@ function Home() {
     <div>
   <Slider></Slider>
   <About></About>
+  <Category></Category>
   <Gallary></Gallary>
   <Testimonial></Testimonial>
   <Team></Team>
