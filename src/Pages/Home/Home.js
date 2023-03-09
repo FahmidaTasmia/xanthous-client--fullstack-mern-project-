@@ -1,4 +1,5 @@
 import React from 'react'
+import BestSeller from '../Product/BestSeller/BestSeller'
 import Category from '../Product/Category/Category'
 import About from './About'
 import Blog from './Blog'
@@ -16,6 +17,7 @@ function Home() {
   <About></About>
   <Category></Category>
   <Gallary></Gallary>
+  <BestSeller></BestSeller>
   <Testimonial></Testimonial>
   <Team></Team>
   <Contact></Contact>
