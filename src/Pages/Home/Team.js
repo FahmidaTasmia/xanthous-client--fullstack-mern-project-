@@ -22,7 +22,7 @@ function Team() {
                 <img src={team1} alt="" />
             </div>
             <div className='mt-3'>
-                <h2 className='uppercase text-[#684E30] font-bold font-serif tracking-wider'>Mike Douglas</h2>
+                <h2 className='uppercase text-[#684E30] font-bold font-serif tracking-wider'>Anna Smith</h2>
                 <h2 className='text-accent tracking-wider'>Department of Arts</h2>
             </div>
             <div className='flex gap-5 my-5'>
@@ -73,7 +73,7 @@ function Team() {
                 <img src={team4} alt="" />
             </div>
             <div className='mt-3'>
-                <h2 className='uppercase text-[#684E30] font-bold font-serif tracking-wider'>Richard Piters</h2>
+                <h2 className='uppercase text-[#684E30] font-bold font-serif tracking-wider'>Amanda red</h2>
                 <h2 className='text-accent tracking-wider'>Senior Artist</h2>
             </div>
             <div className='flex gap-5 my-5'>
