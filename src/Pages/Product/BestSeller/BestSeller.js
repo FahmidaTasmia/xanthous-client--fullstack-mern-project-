@@ -7,7 +7,7 @@ function BestSeller() {
     const[products,setProducts]=useState ([]);
     const [loading,setLoading]=useState(true);
     useEffect(()=>{
-        fetch('http://localhost:5000/bestItem')
+        fetch('https://xanthous-server.vercel.app/bestItem')
         .then(res=>res.json())
         .then(data=>{
             setLoading(false);

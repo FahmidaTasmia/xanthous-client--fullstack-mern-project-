@@ -46,7 +46,7 @@ const router =createBrowserRouter([
             {
                 path:'/category/:id',
                element:<Product></Product>,
-                loader: ({params}) => fetch(`http://localhost:5000/category/${params.id}`)
+                loader: ({params}) => fetch(`https://xanthous-server.vercel.app/category/${params.id}`)
             },
         ]
     }

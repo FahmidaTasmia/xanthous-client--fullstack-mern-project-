@@ -8,7 +8,7 @@ function Category() {
     const [loading,setLoading]=useState(true);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/category')
+        fetch('https://xanthous-server.vercel.app/category')
         .then(res=>res.json())
         .then(data=>{
             setLoading(false);
